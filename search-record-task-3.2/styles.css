@@ -1,0 +1,81 @@
+
+form {
+    width: 40%;
+    background-color: #edeef2;
+    -webkit-box-shadow: 0 0 10px #cccccc;
+    box-shadow: 0 0 10px #cccccc;
+    border-radius: 5px;
+}
+
+.form-header {
+    background-color: #0079c2;
+    color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.form-floating > .form-control {
+    height: 3rem;
+}
+.form-floating > .form-control:not(:placeholder-shown) ~ label,
+.form-floating > label {
+    font-weight: 500;
+    color: #0079c2;
+    padding: 0.75rem;
+}
+
+.form-floating > .form-control:focus ~ label,
+.form-floating > .form-control:not(:placeholder-shown) ~ label {
+    top: -5px;
+    opacity: 1;
+}
+
+.form-floating > .form-control:not(:placeholder-shown) {
+    font-weight: 500;
+    color: #0a3c53b4;
+}
+
+.group-label {
+    font-weight: 500;
+    color: #0079c2;
+}
+
+.btn {
+    width: 120px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.btn-primary {
+    background-color: #0079c2;
+    border-color: #0079c2;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #035b92;
+}
+
+/* resposive code */
+@media screen and (max-width: 1080px) {
+    form {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 912px) {
+    form {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    form {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    form {
+        width: 80%;
+    }
+}

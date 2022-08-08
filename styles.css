@@ -1,0 +1,28 @@
+.list-tile {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 10px #cccccc;
+    box-shadow: 0 0 10px #cccccc;
+}
+
+.list-tile > label {
+    font-weight: 500;
+    color: #0079c2;
+}
+
+
+.btn {
+    width: 120px;
+    font-weight: 500;
+}
+
+a,
+a:hover,
+a:focus {
+    text-decoration: none;
+    color: white;
+}
+
+.download-icon {
+    width: 16px;
+}

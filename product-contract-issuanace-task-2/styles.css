@@ -1,0 +1,63 @@
+body {
+    background-color: #d9d9d9;
+}
+
+/* header styles */
+.header {
+    background-color: #0079c2;
+    color: white;
+}
+
+/* main div styles - strat */
+
+.form-label-group label {
+    font-weight: 500;
+}
+.form-label-group label:hover,
+.form-label-group input:hover {
+    cursor: pointer;
+}
+
+input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+}
+
+.btn {
+    background-color: #0079c2;
+    border-color: #0079c2;
+    width: 120px;
+    font-weight: 500;
+}
+.btn:hover {
+    background-color: #035b92;
+}
+.btn:disabled {
+    background-color: #0078c285;
+    border-color: #0079c2;
+}
+
+/* grid styles */
+.grid-wrapper {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+td.gridjs-td {
+    background-color: transparent;
+}
+
+.gridjs-tr:nth-child(even)  {
+    background-color: #f2f2f2;
+}
+
+/* footer styles */
+.main-footer-title {
+    background-color: rgb(170, 170, 170);
+    font-weight: 500;
+}
+
+/* main div styles - end */
